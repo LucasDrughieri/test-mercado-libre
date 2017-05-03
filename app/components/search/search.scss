@@ -1,0 +1,41 @@
+@import "../../assets/styles/variables.scss";
+
+.navbar-ml {
+    background-color: $ml-color;
+    padding-top: 5px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 500;
+
+    .logo{
+        background-image: url('../../assets/images/Logo_ML.png');
+        background-repeat:no-repeat;
+        height: 36px; 
+        width: 53px;    
+        cursor: pointer;
+    }
+
+    .search-icon {
+        background-image: url('../../assets/images/ic_Search.png');
+        background-repeat:no-repeat;
+        height: 15px; 
+        width: 15px;  
+    }
+
+    .search-button {
+        border: none;
+        background: transparent;
+    }
+
+    ::-webkit-input-placeholder{
+        font-size: 18px;
+    }
+
+    :-moz-placeholder { 
+          font-size: 18px;
+    }
+    ::-moz-placeholder {
+          font-size: 18px;
+    }
+}
