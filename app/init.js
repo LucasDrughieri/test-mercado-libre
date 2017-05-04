@@ -9,7 +9,7 @@ import 'toastr/build/toastr.min.css';
 import './components/index/index.scss';
 import './components/search/search.scss';
 import './components/product/product.scss';
-import './components/product-detail/detail.scss';
+import './components/detail/detail.scss';
 import './components/breadcrumb/breadcrumb.scss';
 import './components/spinner/spinner.scss';
 import './components/errors/notfound.scss';
