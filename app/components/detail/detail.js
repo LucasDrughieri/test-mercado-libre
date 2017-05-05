@@ -10,6 +10,7 @@ import ProductDetail from './product-detail';
 export default class Detail extends React.Component {
     constructor() {
         super();
+        
         this.state = {
             detail: {
                 item: {

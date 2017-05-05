@@ -51,9 +51,7 @@ export default class Search extends React.Component {
     }
 
     updateState(event) {
-        let query = this.state.query;
-        query = event.target.value;
-        return this.setState({query: query});
+        return this.setState({query: event.target.value});
     }
 
     goHome(event){
